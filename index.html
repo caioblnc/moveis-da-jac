@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moveis da Jac - Móveis Usados com Qualidade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-house-heart-fill"></i>
+                Moveis da Jac
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Móveis Usados com Qualidade</h1>
+            <p>Encontre peças únicas para decorar sua casa com muito estilo</p>
+            <button class="btn btn-primary-custom" onclick="scrollToProducts()">Ver Produtos</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Móveis</h2>
+                <p>Seleção especial de móveis usados em excelente estado</p>
+            </div>
+            <div class="row" id="productsContainer">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Sobre a Moveis da Jac</h3>
+                    <p>Somos uma família em processo de mudança e decidimos dar um novo lar para nossos móveis queridos. Cada peça tem sua história e foi cuidada com muito carinho.</p>
+                    <p>Todos os móveis estão em excelente estado de conservação e prontos para decorar sua casa com muito estilo e personalidade.</p>
+                </div>
+                <div class="about-img">
+                    <img src="https://picsum.photos/seed/about/500/400" alt="Sobre Moveis da Jac">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Estamos à disposição para tirar suas dúvidas e agendar visitas</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="bi bi-phone-fill"></i>
+                            <div>
+                                <h4>Celular</h4>
+                                <p>12 99651-3538</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>12 99651-3538</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>daleblanco@yahoo.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>São Paulo - SJC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2024 Moveis da Jac. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5512996513538" class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
